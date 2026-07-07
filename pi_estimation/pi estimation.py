@@ -31,6 +31,10 @@ def plot_approximation(x_data, y_data, mask_data, cumulative):
     plt.show()
 
 
+
+
 est_value, x_coords, y_coords, mask, cumulative = estimate_pi(10000)
 print("Estimated value of π", est_value)
 plot_approximation(x_coords, y_coords, mask, cumulative)
+print('testing testing 123')
+print('test')
