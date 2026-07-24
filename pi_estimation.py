@@ -28,6 +28,7 @@ def plot_approximation(x_data, y_data, mask_data, cumulative):
     axs[0].set_aspect("equal", adjustable="box")
     axs[1].plot(cumulative)
     axs[1].axhline(np.pi, color = 'red', linestyle = '--')
+    plt.savefig("pi_estimation.png", dpi = 300)
     plt.show()
 
 
